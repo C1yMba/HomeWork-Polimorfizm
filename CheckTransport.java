@@ -1,7 +1,4 @@
 public interface CheckTransport {
-    void check(Car car);
+    void check(Transport transport);
 
-    void check(Bicycle bicycle);
-
-    void check(Truck truck);
 }

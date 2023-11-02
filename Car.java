@@ -9,4 +9,8 @@ public class Car extends Transport {
         System.out.println("Проверяем двигатель");
     }
 
+    @Override
+    public void service(){
+        checkEngine();
+    }
 }
